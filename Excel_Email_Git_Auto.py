@@ -6,15 +6,15 @@ import git
 import os
 
 # Configuration
-EXCEL_FILE = 'projects.xlsx'  # Path to your Excel file
-GITHUB_REPO_PATH = '/path/to/your/repo'  # Path to your local GitHub repository
-EMAIL_SENDER = 'your_email@example.com'
-EMAIL_RECEIVER = 'recipient_email@example.com'
+EXCEL_FILE = 'Test Python.xlsx'  # Path to your Excel file
+GITHUB_REPO_PATH = '/path/to/your/local/git/repository/Excel_Email_Git_Auto'  # Path to your local GitHub repository
+EMAIL_SENDER = 'nandhanabarni@example.com'
+EMAIL_RECEIVER = 'nandhanabarni@gmail.com', 'Fabrovaz@gmail.com','ferdinfendi@gamil.com'
 EMAIL_SUBJECT = 'New Project Added'
-SMTP_SERVER = 'smtp.example.com'
+SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
-SMTP_USERNAME = 'your_email@example.com'
-SMTP_PASSWORD = 'your_email_password'
+SMTP_USERNAME = 'nandhanabarni@example.com'
+SMTP_PASSWORD = 'ypmh emwr gosz loyt'
 
 # Function to send email
 def send_email(project_name):
